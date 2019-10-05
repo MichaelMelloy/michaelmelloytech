@@ -1,0 +1,126 @@
+body {
+	background-image: url("Background.jpg");
+	background-repeat:no-repeat;
+	background-size: 1920px 1080px;
+	height: 1480px;
+	width: 1700px;
+}
+
+#Name {
+	padding: 12% 0%;
+	text-align: center;
+	color: rgba(255, 255, 255, 0.55);
+	font-family: Arial;
+	margin-left: 7.5%;
+}
+
+#Name span {
+	font-size: 275%;
+}
+
+.aMButton {
+  background-color: rgba(52, 73, 94, 0);
+  border: 3px solid #34495e;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  font-size: 200%;
+  font-weight: bold;
+  transition: 0.3s;
+  width: 10%;
+  margin-left: 50%;
+  margin-top: 10%;
+  font-family: Arial;
+}
+
+.aMButton:hover {background-color: rgba(52, 73, 94, 1)}
+
+#hr1 {
+	margin-top: 17%;
+	height: 6px;
+	background-color: #ef5350;
+	border: none;
+	width: 1903px;
+	margin-left: -0.5%;
+}
+
+#About {
+	text-align: center;
+	margin-top: 2%;
+	margin-left: 4%;
+	font-family: Arial;
+	font-size: 250%;
+	background-color: #212121;
+	margin-right: 83%;
+	color: white;
+	padding: 5px;
+	
+}
+
+#Par {
+	background-color: #212121;
+	color: white;
+	font-size: 175%;
+	margin-left: 4%;
+	margin-right: 40%;
+	padding: 10px;
+	margin-top: -1.25%;
+	font-family: Arial;
+}
+
+.text {
+	margin-left: 4%;
+}
+
+#yeet {
+	margin-left: 4%;
+}
+
+.pictures {
+	margin:5px;
+	border: 3px solid rgb(214, 214, 214);
+	float: left;
+	width: 45%;
+	transition-duration: 0.3s;
+}
+
+.pictures:hover {
+	border: 3px solid rgb(51, 51, 51);
+}
+
+.pictures img {
+	width: 100%;
+	height: auto;
+}
+
+.descm {
+	background-color: #212121;
+	color: white;
+	font-size: 150%;
+	padding: 15px;
+	text-align: center;
+	font-family: Arial;
+	transition-duration: 0.3s;
+}
+
+.desco {
+	background-color: #212121;
+	color: white;
+	font-size: 150%;
+	padding: 15px;
+	text-align: center;
+	font-family: Arial;
+	transition-duration: 0.3s;
+}
+
+.desco:hover {
+	background-color: #707070;
+}
+
+.descm:hover {
+	background-color: #707070;
+}
+
+a {
+    text-decoration: none;
+}
