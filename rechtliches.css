@@ -3,8 +3,6 @@ html {
   }
 
 body{
-    background: url(andromeda.jpg) no-repeat center center fixed; 
-    background-size: cover;
     margin: 0;
     padding: 0;
 }
@@ -41,14 +39,4 @@ li a:hover{
 
 #recht{
     background-color: #263b52;
-}
-
-#title{
-    font-family: 'Raleway';
-    font-weight: 100;
-    margin-top: 25vh;
-    color: rgb(255, 255, 255, 0.5);
-    font-size: 82px;
-    text-align: left;
-    margin-left: 10vw;
 }
