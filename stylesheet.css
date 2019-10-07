@@ -3,8 +3,7 @@ html {
   }
 
 body{
-    background: url(andromeda.jpg) no-repeat center center fixed; 
-    background-size: cover;
+    background-color: #dadada;
     margin: 0;
     padding: 0;
 }
@@ -51,4 +50,9 @@ li a:hover{
     font-size: 82px;
     text-align: left;
     margin-left: 10vw;
+}
+
+.image{
+    width: 40%;
+    height: 40%;
 }
