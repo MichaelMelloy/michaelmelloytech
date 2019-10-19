@@ -1,21 +1,51 @@
-<!DOCTYPE  html>
-<html>
-		<head>
-				<link rel="stylesheet" type="text/css" href="stylesheet.css">
-				<link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
-				<script>var clicky_site_ids = clicky_site_ids || []; clicky_site_ids.push(101214214);</script>
-				<script async src="//static.getclicky.com/js"></script>
-				<title>Astronomy</title>
-			</head>
-<body class="home" style="background: url(andromeda.jpg) no-repeat center center fixed; background-size: cover;">
-	<ul>
-		<li class="nav"><a href="index.html">Home</a></li>
-		<li class="nav"><a href="Astronomy.html">Astronomy</a></li>
-		<li class="nav"><a href="landscape.html">LandScapes</a></li>
-		<li style="float:right" class="nav" id="recht"><a href="Rechtliches.html">Rechtliches</a></li>
-	</ul>
+<!DOCTYPE HTML> 
 
-	<h1 class="title">Michael Melloy</h1>
-	<h1 class="title" id="giey">noob photographer</h1>
-</body>
-</html>
+<HTML>
+    <head>
+        <link rel="stylesheet" type="text/css" href="navbarcss.css"> <!--Navbar-->
+        <link rel="stylesheet" type="text/css" href="indexcss.css"> <!--CSS-->
+        <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet"> 
+        <script>var clicky_site_ids = clicky_site_ids || []; clicky_site_ids.push(101214214);</script>
+        <script async src="//static.getclicky.com/js"></script>
+        <title>MichaelMelloy</title>      
+    </head>
+
+    <body onscroll="myFunction()" id="test">
+
+
+        <video autoplay  poster="images/poster.jpg" id="videobg" loop>
+            <source src="background.mp4" type="video/mp4">
+        </video>
+
+
+        <div id="navBar">
+            <div id="navLeft">
+                <a href="deepsky.html" id="underlineleft">Deepsky</a>
+                <a href="planetary.html" id="underlineleft">Planetary</a>
+                <a href="widefield.html" id="underlineleft">Widefield</a>
+            </div>
+            <div id="navCentre">
+                <a href="index.html" id="underlinecenter">MichaelMelloY</a>
+            </div>
+            <div id="navRight">
+                <a href="landscapes.html" id="underlineright">Landscapes</a>
+                <a href="objects.html" id="underlineright">Objects</a>
+                <a href="animals.html" id="underlineright">Animals</a>
+            </div>
+        </div>
+
+        <script>
+            var prevScrollpos = window.pageYOffset;
+            window.onscroll = function() {
+            var currentScrollPos = window.pageYOffset;
+            if (prevScrollpos > currentScrollPos) {
+                document.getElementById("navBar").style.top = "0px";
+            } else {
+                document.getElementById("navBar").style.top = "-12%";
+            }
+            prevScrollpos = currentScrollPos;
+	        } 
+        </script>
+            
+    </body>
+</HTML>
