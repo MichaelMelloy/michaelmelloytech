@@ -10,7 +10,13 @@
         <script async src="//static.getclicky.com/js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
         <title>MichaelMelloy</title>
-        <link rel="icon" href="IMG/icon.png">      
+        <link rel="icon" href="IMG/icon.png">
+        <script>
+        function nocontrolls() {
+            document.getElementById("myVideo").controls = false; 
+        }
+        window.onload = nocontrolls;
+        </script>       
     </head>
 
     <body>
@@ -54,12 +60,6 @@
             }
             prevScrollpos = currentScrollPos;
 	        }
-        </script>
-
-        <script>
-            function hidecontrols() {
-            document.getElementById("videobg").controls = false;
-            }
         </script>
     </body>
 </HTML>

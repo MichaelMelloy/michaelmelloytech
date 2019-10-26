@@ -10,10 +10,16 @@
         <script async src="//static.getclicky.com/js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
         <title>MichaelMelloy</title>
-        <link rel="icon" href="IMG/icon.png">   
+        <link rel="icon" href="IMG/icon.png">
+        <script>
+        function nocontrolls() {
+            document.getElementById("myVideo").controls = false; 
+        }
+        window.onload = nocontrolls;
+        </script> 
     </head>
 
-    <body>
+    <body on>
         <!--Video-->
         <video autoplay  poster="images/poster.jpg" id="videobg" loop controls muted>
             <source src="IMG/background.mp4" type="video/mp4">
@@ -84,23 +90,6 @@
             }
             prevScrollpos = currentScrollPos;
 	        }
-        </script>
-
-        <script src="https://static.codepen.io/assets/common/stopExecutionOnTimeout-de7e2ef6bfefd24b79a3f68b414b87b8db5b08439cac3f1012092b2290c719cd.js"></script><script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
-            <script id="rendered-js">
-                $(function () {
-                $('.scroll').click(function () {
-                $('html, body').animate({ scrollTop: $('section.intro').offset(500).top }, 'slow');
-                    return false;
-                });
-                });
-                //# Quelle: https://codepen.io
-            </script>
-
-        <script>
-            function hidecontrols() {
-            document.getElementById("videobg").controls = false;
-            }
         </script>
     </body>
 </HTML>
