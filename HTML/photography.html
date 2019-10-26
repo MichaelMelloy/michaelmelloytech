@@ -1,0 +1,93 @@
+<!DOCTYPE HTML> 
+
+<HTML>
+    <head>
+        <link rel="stylesheet" type="text/css" href="../CSS\navbarcss.css"> <!--Navbar-->
+        <link rel="stylesheet" type="text/css" href="../CSS\photographycss.css"> <!--CSS-->
+        <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">  <!--Raleway Font Import-->
+        <script>var clicky_site_ids = clicky_site_ids || []; clicky_site_ids.push(101214214);</script> <!--Clicky Script-->
+        <script async src="//static.getclicky.com/js"></script>
+        <title>Photography</title>    
+    </head>
+
+    <body>
+
+        <!--Navbar-->
+        <div id="navBar">
+
+            <!--Left Side-->
+            <div id="navLeft">
+                <a href="astronomy.html" id="underlineleft">Astronomy</a>
+                <a href="photography.html" id="underlineleft">Photography</a>
+                <a href="code.html" id="underlineleft">Coding</a>
+            </div>
+
+            <!--Centre-->
+            <div id="navCentre">
+                <a href="index.html" id="underlinecenter">MichaelMelloY</a>
+            </div>
+
+            <!--Right side-->
+            <div id="navRight">
+                <a href="about.html" id="underlineright">Aboute me</a>
+                <a href="other.html" id="underlineright">Other Projects</a>
+                <a href="legal.html" id="underlineright">Legal</a>
+            </div>
+        </div>
+
+        <!--Image Options-->
+         <div class="centerimage">
+            <div class="options" style="margin-top: 20%;">
+                  <img src="../IMG\cave.jpg" alt="cave">
+                  <div class="name">Höllental-Klamm Bavaria</div> <!--Image 1-->
+              </div>
+              
+              <div class="options">
+                  <img src="../IMG\flower.jpg" alt="flower" style="margin-top: 5%;">
+                  <div class="name">Flowers</div> <!--Image 2-->
+              </div>
+
+              <div class="options">
+                <img src="../IMG\land.jpg" alt="mountains" style="margin-top: 5%;">
+                <div class="name">Zugspitze Mountains</div> <!--Image 2-->
+              </div>
+
+              <div class="options">
+                <img src="../IMG\mnt.jpg" alt="moonmountains" style="margin-top: 5%;">
+                <div class="name">Mountain moon Bavaria</div> <!--Image 2-->
+              </div>
+
+              <div class="options">
+                <img src="../IMG\rise.jpg" alt="moonrise" style="margin-top: 5%;">
+                <div class="name">Moonrise Freiburg</div> <!--Image 2-->
+              </div>
+
+              <div class="options">
+                <img src="../IMG\treelight.jpg" alt="treelight" style="margin-top: 5%;">
+                <div class="name">Moon Tree</div> <!--Image 2-->
+              </div>
+
+              <div class="options">
+                      <img src="../IMG\forest.jpg" alt="forest" style="margin-top: 5%;">
+                      <div class="name" style="margin-bottom: 5%;">Zugspitze Forest</div> <!--Image 3-->
+                  </div>
+              
+        <!--Navbar Scroll script-->
+        <script>
+            var prevScrollpos = window.pageYOffset;
+            window.onscroll = function() {
+            var currentScrollPos = window.pageYOffset;
+            if (prevScrollpos > currentScrollPos) {
+                document.getElementById("navBar").style.top = "0px";
+            } else {
+                document.getElementById("navBar").style.top = "-20%";
+            }
+            prevScrollpos = currentScrollPos;
+	        } 
+        </script>
+
+        <script>
+            
+        </script>
+    </body>
+</HTML>

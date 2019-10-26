@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" type="text/css" href="../CSS\navbarcss.css"> <!--Navbar-->
+        <link rel="stylesheet" type="text/css" href="../CSS\aboutcss.css"> <!--CSS-->
+        <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">  <!--Raleway Font Import-->
+        <script>var clicky_site_ids = clicky_site_ids || []; clicky_site_ids.push(101214214);</script> <!--Clicky Script-->
+        <script async src="//static.getclicky.com/js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <title>MichaelMelloy</title>    
+    </head>
+
+    <body>
+
+        <!--Navbar-->
+        <div id="navBar">
+
+            <!--Left Side-->
+            <div id="navLeft">
+                <a href="astronomy.html" id="underlineleft">Astronomy</a>
+                <a href="photography.html" id="underlineleft">Photography</a>
+                <a href="code.html" id="underlineleft">Coding</a>
+            </div>
+
+            <!--Centre-->
+            <div id="navCentre">
+                <a href="index.html" id="underlinecenter">MichaelMelloY</a>
+            </div>
+
+            <!--Right side-->
+            <div id="navRight">
+                <a href="about.html" id="underlineright">Aboute me</a>
+                <a href="other.html" id="underlineright">Other Projects</a>
+                <a href="legal.html" id="underlineright">Legal</a>
+            </div>
+        </div>
+
+        <div class="aboutdiv">
+            <div class="about">about me</div>
+        </div>
+
+        <script>
+                var prevScrollpos = window.pageYOffset;
+                window.onscroll = function() {
+                var currentScrollPos = window.pageYOffset;
+                if (prevScrollpos > currentScrollPos) {
+                    document.getElementById("navBar").style.top = "0px";
+                } else {
+                    document.getElementById("navBar").style.top = "-20%";
+                }
+                prevScrollpos = currentScrollPos;
+                }
+            </script>
+
+    </body>
+</html>

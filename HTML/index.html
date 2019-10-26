@@ -1,0 +1,99 @@
+<!DOCTYPE HTML> 
+
+<HTML>
+    <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" type="text/css" href="../CSS\navbarcss.css"> <!--Navbar-->
+        <link rel="stylesheet" type="text/css" href="../CSS\indexcss.css"> <!--CSS-->
+        <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">  <!--Raleway Font Import-->
+        <script>var clicky_site_ids = clicky_site_ids || []; clicky_site_ids.push(101214214);</script> <!--Clicky Script-->
+        <script async src="//static.getclicky.com/js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <title>MichaelMelloy</title>    
+    </head>
+
+    <body>
+        <!--Video-->
+        <video autoplay  poster="images/poster.jpg" id="videobg" loop>
+            <source src="../IMG/background.mp4" type="video/mp4">
+        </video>
+
+        <!--Navbar-->
+        <div id="navBar">
+
+            <!--Left Side-->
+            <div id="navLeft">
+                <a href="astronomy.html" id="underlineleft">Astronomy</a>
+                <a href="photography.html" id="underlineleft">Photography</a>
+                <a href="code.html" id="underlineleft">Coding</a>
+            </div>
+
+            <!--Centre-->
+            <div id="navCentre">
+                <a href="index.html" id="underlinecenter">MichaelMelloY</a>
+            </div>
+
+            <!--Right side-->
+            <div id="navRight">
+                <a href="about.html" id="underlineright">Aboute me</a>
+                <a href="other.html" id="underlineright">Other Projects</a>
+                <a href="legal.html" id="underlineright">Legal</a>
+            </div>
+        </div>
+        <section class="section1">
+        <!--Scroll Rocket-->
+        <div id="rocket">
+            <a href="#intro" id="scroll"><img src="../IMG\rocket.png" width="100%" height="auto" id="rocketimg"></a>
+        </div>
+        </section>
+
+        <section id="intro" style="margin-top: 15vh;">
+        <!--Image Options-->
+            <div class="options" style="margin-left: 20%; margin-right: 0.125%;">
+                <a target="_blank" href="astronomy.html">
+                  <img src="../IMG\andromeda.jpg" alt="andromeda">
+                  <div class="name">Astronomy</div> <!--Image 1-->
+                </a>
+              </div>
+              
+              <div class="options" style="margin-right: 20%; margin-left: 0.125%;">
+                <a target="_blank" href="photography.html">
+                  <img src="../IMG\fire.jpg" alt="fire">
+                  <div class="name">Photography</div> <!--Image 2-->
+                </a>
+              </div>
+
+              <div class="options" style="margin-left: 35.0625%; margin-right: 35.0625%; margin-top: 2.5vh; margin-bottom: 4vh;">
+                    <a target="_blank" href="code.html">
+                      <img src="../IMG\coding.jpg" alt="htmlcode">
+                      <div class="name">Coding</div> <!--Image 3-->
+                    </a>
+              </div>
+        </section>
+        </section>
+        <!--Navbar Scroll script-->
+        <script>
+            var prevScrollpos = window.pageYOffset;
+            window.onscroll = function() {
+            var currentScrollPos = window.pageYOffset;
+            if (prevScrollpos > currentScrollPos) {
+                document.getElementById("navBar").style.top = "0px";
+            } else {
+                document.getElementById("navBar").style.top = "-20%";
+            }
+            prevScrollpos = currentScrollPos;
+	        }
+        </script>
+
+        <script src="https://static.codepen.io/assets/common/stopExecutionOnTimeout-de7e2ef6bfefd24b79a3f68b414b87b8db5b08439cac3f1012092b2290c719cd.js"></script><script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+            <script id="rendered-js">
+                $(function () {
+                $('.scroll').click(function () {
+                $('html, body').animate({ scrollTop: $('section.intro').offset(500).top }, 'slow');
+                    return false;
+                });
+                });
+                //# Quelle: https://codepen.io
+            </script>
+    </body>
+</HTML>

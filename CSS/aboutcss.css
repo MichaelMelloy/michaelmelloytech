@@ -1,0 +1,21 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    background: rgb(20, 20, 20);
+}
+
+.aboutdiv{
+    margin-top: 15%;
+    width: 100%;
+}
+
+.about {
+    font-size: 150%;
+    font-family: 'Raleway', 'Arial';
+    color: white;
+    text-align: center;
+    opacity: 0.8;
+}
