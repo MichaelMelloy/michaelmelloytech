@@ -39,6 +39,10 @@
   text-align: center;
 }
 
+#foo {
+  border-bottom: solid rgba(255, 255, 255, 0.2);
+}
+
 #navCentre a {
   font-size: 175%;
   border-top: solid rgba(255, 255, 255, 0);

@@ -1,0 +1,51 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    background: rgb(20, 20, 20);    
+}
+
+.centerimg {
+    width: 100%;
+}
+
+.options {
+    box-sizing: border-box;
+    float: left;
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+
+}
+
+.options a {
+    text-decoration: none;
+}
+  
+.options img {
+    width: 100%;
+    height: auto;
+    opacity: 1;
+    transition: 0.3s;
+}
+  
+.name {
+    color: white;
+    font-size: 150%;
+    background: rgba(102, 102, 102, 0.2);
+    font-family: 'Raleway';
+    padding: 1%;
+    text-align: center;
+    opacity: 1;
+    transition: 0.3s;
+}
+
+#landheimhead {
+    color: white;
+    font-family: 'Raleway', 'Arial';
+    font-size: 250%;
+    margin-top: 20%;
+    margin-left: 25.5%;
+}
