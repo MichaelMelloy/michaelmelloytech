@@ -15,7 +15,7 @@
 
     <body>
         <!--Video-->
-        <video autoplay  poster="images/poster.jpg" id="videobg" loop controls muted controls="false">
+        <video autoplay  poster="images/poster.jpg" id="videobg" loop controls muted>
             <source src="IMG/background.mp4" type="video/mp4">
         </video>
 
@@ -96,5 +96,11 @@
                 });
                 //# Quelle: https://codepen.io
             </script>
+
+        <script>
+            function hidecontrols() {
+            document.getElementById("videobg").controls = false;
+            }
+        </script>
     </body>
 </HTML>
