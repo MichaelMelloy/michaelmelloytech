@@ -13,6 +13,7 @@
 
     <body>
 
+<div id="desknavBar">
         <!--Navbar-->
         <div id="navBar">
 
@@ -35,6 +36,25 @@
                     <a href="legal.html">Legal</a>
                 </div>
             </div>
+</div>
+
+<div id="mobilenavBar">
+
+        <div id="sidepanel" class="sidepanel">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="index.html" style="font-size: 175%" id="mm">MichaelMelloY</a>
+            <hr id="hr">
+            <a href="astronomy.html">Astronomy</a>
+            <a href="photography.html">Photography</a>
+            <a href="code.html">Coding</a>
+            <hr id="hr">
+            <a href="about.html">About me</a>
+            <a href="otherp.html">Other</a>
+            <a href="legal.html">Legal</a>
+          </div>
+          
+          <button class="openbtn" onclick="openNav()">&#9776;</button>
+    </div>
 
         <!--Image Options-->
          <div class="centerimage">
@@ -44,37 +64,37 @@
               </div>
               
               <div class="options">
-                  <img src="IMG\flower.jpg" alt="flower" style="margin-top: 5%;">
+                  <img src="IMG\flower.jpg" alt="flower" id="margintop">
                   <div class="name">Flowers</div> <!--Image 2-->
               </div>
 
               <div class="options">
-                <img src="IMG\land.jpg" alt="mountains" style="margin-top: 5%;">
+                <img src="IMG\land.jpg" alt="mountains" id="margintop">
                 <div class="name">Zugspitze Mountains</div> <!--Image 2-->
               </div>
 
               <div class="options">
-                <img src="IMG\mnt.jpg" alt="moonmountains" style="margin-top: 5%;">
+                <img src="IMG\mnt.jpg" alt="moonmountains" id="margintop">
                 <div class="name">Mountain moon Bavaria</div> <!--Image 2-->
               </div>
 
               <div class="options">
-                <img src="IMG\rise.jpg" alt="moonrise" style="margin-top: 5%;">
+                <img src="IMG\rise.jpg" alt="moonrise" id="margintop">
                 <div class="name">Moonrise Freiburg</div> <!--Image 2-->
               </div>
 
               <div class="options">
-                <img src="IMG\treelight.jpg" alt="treelight" style="margin-top: 5%;">
+                <img src="IMG\treelight.jpg" alt="treelight" id="margintop">
                 <div class="name">Moon Tree</div> <!--Image 2-->
               </div>
 
               <div class="options">
-                <img src="IMG\fire.jpg" alt="fire" style="margin-top: 5%;">
+                <img src="IMG\fire.jpg" alt="fire" id="margintop">
                 <div class="name">Fire</div> <!--Image 2-->
               </div>
 
               <div class="options">
-                      <img src="IMG\forest.JPG" alt="forest" style="margin-top: 5%;">
+                      <img src="IMG\forest.JPG" alt="forest" id="margintop">
                       <div class="name" style="margin-bottom: 5%;">Zugspitze Forest</div> <!--Image 3-->
                   </div>
               
@@ -92,8 +112,16 @@
 	        } 
         </script>
 
-        <script>
-            
-        </script>
+<script>
+        /* Set the width of the sidebar to 250px (show it) */
+        function openNav() {
+        document.getElementById("sidepanel").style.width = "250px";
+        }
+
+        /* Set the width of the sidebar to 0 (hide it) */
+        function closeNav() {
+        document.getElementById("sidepanel").style.width = "0";
+        } 
+    </script>
     </body>
 </HTML>

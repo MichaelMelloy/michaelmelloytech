@@ -49,3 +49,56 @@ body {
     margin-top: 20%;
     margin-left: 25.5%;
 }
+
+#margintop{
+    margin-top: 5%;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .centerimg {
+        width: 100%;
+    }
+    
+    .options {
+        box-sizing: border-box;
+        float: left;
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+    
+    }
+    
+    .options a {
+        text-decoration: none;
+    }
+      
+    .options img {
+        width: 100%;
+        height: auto;
+        opacity: 1;
+        transition: 0.3s;
+    }
+      
+    .name {
+        color: white;
+        font-size: 150%;
+        background: rgba(102, 102, 102, 0.2);
+        font-family: 'Raleway';
+        padding: 1%;
+        text-align: center;
+        opacity: 1;
+        transition: 0.3s;
+    }
+    
+    #landheimhead {
+        color: white;
+        font-family: 'Raleway', 'Arial';
+        font-size: 250%;
+        margin-top: 5%;
+        margin-left: 5%;
+    }
+    
+    #margintop{
+        margin-top: 10%;
+    }

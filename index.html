@@ -19,12 +19,13 @@
         </script> 
     </head>
 
-    <body on>
+    <body>
         <!--Video-->
-        <video autoplay  poster="images/poster.jpg" id="videobg" loop controls muted controls="false";>
+        <video autoplay poster="images/poster.jpg" id="videobg" loop controls muted>
             <source src="IMG/background.mp4" type="video/mp4">
         </video>
 
+<div id="desknavBar">
         <!--Navbar-->
         <div id="navBar">
 
@@ -47,37 +48,62 @@
                 <a href="legal.html">Legal</a>
             </div>
         </div>
+</div>
+
+<div id="mobilenavBar">
+
+    <div id="sidepanel" class="sidepanel">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="index.html" style="font-size: 175%" id="mm">MichaelMelloY</a>
+        <hr id="hr">
+        <a href="astronomy.html">Astronomy</a>
+        <a href="photography.html">Photography</a>
+        <a href="code.html">Coding</a>
+        <hr id="hr">
+        <a href="about.html">About me</a>
+        <a href="otherp.html">Other</a>
+        <a href="legal.html">Legal</a>
+      </div>
+      
+      <button class="openbtn" onclick="openNav()">&#9776;</button>
+</div>
+
+<div id="mobilecontent">
+        <div id="michaelmelloy">Michael Melloy</div>
+    </div>
+
         <section class="section1">
         <!--Scroll Rocket-->
         <div id="rocket">
             <a href="#intro" id="scroll"><img src="IMG\rocket.png" width="100%" height="auto" id="rocketimg"></a>
         </div>
         </section>
+</div>
 
-        <section id="intro" style="margin-top: 15vh;">
-        <!--Image Options-->
-            <div class="options" style="margin-left: 20%; margin-right: 0.125%;">
+        <section id="intro" style="margin-top: 50vh;">
+        
+            <div class="options">
                 <a target="_blank" href="astronomy.html">
-                  <img src="IMG\andromeda.jpg" alt="andromeda">
-                  <div class="name">Astronomy</div> <!--Image 1-->
+                  <img src="IMG\andromeda.jpg" alt="andromeda" id="first">
+                  <div class="name">Astronomy</div>
                 </a>
               </div>
               
-              <div class="options" style="margin-right: 20%; margin-left: 0.125%;">
+              <div class="options">
                 <a target="_blank" href="photography.html">
                   <img src="IMG\fire.jpg" alt="fire">
-                  <div class="name">Photography</div> <!--Image 2-->
+                  <div class="name">Photography</div>
                 </a>
               </div>
 
-              <div class="options" style="margin-left: 35.0625%; margin-right: 35.0625%; margin-top: 2.5vh; margin-bottom: 4vh;">
+              <div class="options">
                     <a target="_blank" href="code.html">
                       <img src="IMG\coding.jpg" alt="htmlcode">
-                      <div class="name">Coding</div> <!--Image 3-->
+                      <div class="name" id="last">Coding</div>
                     </a>
               </div>
         </section>
-        </section>
+
         <!--Navbar Scroll script-->
         <script>
             var prevScrollpos = window.pageYOffset;
@@ -90,6 +116,18 @@
             }
             prevScrollpos = currentScrollPos;
 	        }
+        </script>
+
+        <script>
+            /* Set the width of the sidebar to 250px (show it) */
+            function openNav() {
+            document.getElementById("sidepanel").style.width = "250px";
+            }
+
+            /* Set the width of the sidebar to 0 (hide it) */
+            function closeNav() {
+            document.getElementById("sidepanel").style.width = "0";
+            } 
         </script>
     </body>
 </HTML>

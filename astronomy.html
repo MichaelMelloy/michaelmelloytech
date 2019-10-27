@@ -13,6 +13,7 @@
 
     <body>
 
+<div id="desknavBar">
         <!--Navbar-->
         <div id="navBar">
 
@@ -35,6 +36,25 @@
                     <a href="legal.html">Legal</a>
                 </div>
             </div>
+</div>
+
+            <div id="mobilenavBar">
+
+                    <div id="sidepanel" class="sidepanel">
+                        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                        <a href="index.html" style="font-size: 175%" id="mm">MichaelMelloY</a>
+                        <hr id="hr">
+                        <a href="astronomy.html">Astronomy</a>
+                        <a href="photography.html">Photography</a>
+                        <a href="code.html">Coding</a>
+                        <hr id="hr">
+                        <a href="about.html">About me</a>
+                        <a href="otherp.html">Other</a>
+                        <a href="legal.html">Legal</a>
+                      </div>
+                      
+                      <button class="openbtn" onclick="openNav()">&#9776;</button>
+                </div>
 
         <!--Image Options-->
          <div class="centerimage">
@@ -44,17 +64,17 @@
             </div>
               
             <div class="options">
-                <img src="IMG\orion.jpg" alt="orion" style="margin-top: 5%;">
+                <img src="IMG\orion.jpg" alt="orion" id="margintop">
                 <div class="name">Orion Nebula</div> <!--Image 2-->
             </div>
 
             <div class="options">
-                <img src="IMG\moon.jpg" alt="moon" style="margin-top: 5%;">
+                <img src="IMG\moon.jpg" alt="moon" id="margintop">
                 <div class="name">Moon</div> <!--Image 2-->
             </div>
 
             <div class="options">
-                <img src="IMG\milkyway.jpg" alt="milkyway" style="margin-top: 5%;">
+                <img src="IMG\milkyway.jpg" alt="milkyway" id="margintop">
                 <div class="name" style="margin-bottom: 5%;">Milkyway galaxy</div> <!--Image 3-->
             </div>
               
@@ -72,8 +92,16 @@
 	        } 
         </script>
 
-        <script>
-            
-        </script>
+<script>
+        /* Set the width of the sidebar to 250px (show it) */
+        function openNav() {
+        document.getElementById("sidepanel").style.width = "250px";
+        }
+
+        /* Set the width of the sidebar to 0 (hide it) */
+        function closeNav() {
+        document.getElementById("sidepanel").style.width = "0";
+        } 
+    </script>
     </body>
 </HTML>
