@@ -42,6 +42,10 @@ body {
     transition: 0.3s;
 }
 
+#margintop{
+    margin-top: 5%;
+}
+
 @media only screen and (max-width: 600px) {
 
     .centerimg {

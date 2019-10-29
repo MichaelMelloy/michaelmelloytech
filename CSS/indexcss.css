@@ -181,7 +181,7 @@ video#videobg {
         color: white;
         font-size: 125%;
         background: rgba(37, 37, 37, 0.7);
-        font-family: 'Raleway';
+        font-family: 'Raleway', 'Arial';
         padding: 1%;
         text-align: center;
         opacity: 1;
