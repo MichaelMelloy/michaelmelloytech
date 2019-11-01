@@ -45,8 +45,8 @@ body {
 
 #navLeft a:hover{
   color: rgba(255, 255, 255, 0.5);
-  border-top: 0.3vh solid rgba(255, 255, 255, 1);
-  border-bottom: 0.3vh solid rgba(255, 255, 255, 1);
+  border-top: 0.2vh solid rgba(255, 255, 255, 1);
+  border-bottom: 0.2vh solid rgba(255, 255, 255, 1);
 }
 
 /*Navbar Centre*/
@@ -63,8 +63,8 @@ body {
 
 #navCentre a:hover{
   color: rgba(255, 255, 255, 0.5);
-  border-top: 0.3vh solid rgba(255, 255, 255, 1);
-  border-bottom: 0.3vh solid rgba(255, 255, 255, 1);
+  border-top: 0.2vh solid rgba(255, 255, 255, 1);
+  border-bottom: 0.2vh solid rgba(255, 255, 255, 1);
 }
 
 /*Navbar Left*/
@@ -83,8 +83,8 @@ body {
 
 #navRight a:hover{
   color: rgba(255, 255, 255, 0.5);
-  border-top: 0.3vh solid rgba(255, 255, 255, 1);
-  border-bottom: 0.3vh solid rgba(255, 255, 255, 1);
+  border-top: 0.2vh solid rgba(255, 255, 255, 1);
+  border-bottom: 0.2vh solid rgba(255, 255, 255, 1);
 }
 
 

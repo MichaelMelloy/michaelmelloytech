@@ -1,0 +1,176 @@
+
+/*MAGIC*/
+#desknavBar {
+  display: block;
+}
+
+#mobilenavBar {
+  display: none;
+}
+/*MAGIC*/
+
+body {
+  box-sizing: border-box;
+}
+
+/*Navbar*/
+#navBar {
+  margin-top: 2%;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  transition: top 0.5s;
+}
+
+#navBar a{
+  font-family: 'Raleway';
+  text-decoration: none;
+  color: rgba(255, 255, 255, 1);
+}
+
+/*Navbar Left*/
+
+#navLeft {
+  text-align: left;
+  margin-left: 30%;
+}
+
+#navLeft a {
+  font-size: 105%;
+  margin-left: 0.6%;
+  border-top: solid rgba(255, 255, 255, 0);
+  border-bottom: solid rgba(255, 255, 255, 0);
+  transition: 0.3s;
+}
+
+#navLeft a:hover{
+  color: rgba(255, 255, 255, 0.5);
+  border-top: 0.2vh solid rgba(255, 255, 255, 1);
+  border-bottom: 0.2vh solid rgba(255, 255, 255, 1);
+}
+
+/*Navbar Centre*/
+#navCentre {
+  text-align: center;
+}
+
+#navCentre a {
+  font-size: 175%;
+  border-top: solid rgba(255, 255, 255, 0);
+  border-bottom: solid rgba(255, 255, 255, 0);
+  transition: 0.3s;
+}
+
+#navCentre a:hover{
+  color: rgba(255, 255, 255, 0.5);
+  border-top: 0.2vh solid rgba(255, 255, 255, 1);
+  border-bottom: 0.2vh solid rgba(255, 255, 255, 1);
+}
+
+/*Navbar Left*/
+#navRight {
+  text-align: right;
+  margin-right: 30%;
+}
+
+#navRight a{
+  font-size: 100%;
+  margin-right: 0.6%;
+  border-top: solid rgba(255, 255, 255, 0);
+  border-bottom: solid rgba(255, 255, 255, 0);
+  transition: 0.3s;
+}
+
+#navRight a:hover{
+  color: rgba(255, 255, 255, 0.5);
+  border-top: 0.2vh solid rgba(255, 255, 255, 1);
+  border-bottom: 0.2vh solid rgba(255, 255, 255, 1);
+}
+
+
+
+/*---------------------------------------------------------------------------------*/
+
+
+
+
+@media only screen and (max-width: 600px) {
+  
+/*MAGIC*/
+#desknavBar {
+  display: none;
+}
+
+#mobilenavBar {
+  display: block;
+}
+/*MAGIC*/
+
+ /*Sidepanel*/
+ .sidepanel {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 15%;
+  transition: 0.35s;
+}
+
+/*buttons*/
+.sidepanel a {
+  padding: 2% 2% 2% 8%;
+  text-decoration: none;
+  font-size: 150%;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+  font-family: 'Raleway','Arial';
+}
+
+#mm {
+  color: #636b83;
+}
+
+#mm:hover {
+  color: #ececec;
+}
+
+.sidepanel a:hover {
+  color: #ececec;
+}
+
+/*close*/
+.sidepanel .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+/*open*/
+.openbtn {
+  font-size: 225%;
+  background-color: #111;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  transition: 0.2s;
+}
+
+.openbtn:hover {
+  background-color: #444;
+} 
+}
+
+#hr {
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  font-family: 'Raleway','Arial';
+  font-weight: 100;
+}
