@@ -7,6 +7,7 @@ html
 {
     scrollbar-width: none;
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 
 body
@@ -90,10 +91,7 @@ nav ul
 
 .Name
 {
-    position: relative;
-    top: 25%;
-    left: 5%;
-
+    margin-bottom: 2%;
     font-size: 125%;
     font-family: 'Raleway', Arial, sans-serif;
     color: var(--text-color-1);
@@ -101,15 +99,21 @@ nav ul
 
 .Legal
 {
-    position: relative;
-    top: 35%;
-    left: 5%;
+
     padding: 5px;
 
     border: 2px solid var(--text-color-1);
 
     font-family: 'Raleway', Arial, sans-serif;
     color: var(--text-color-1);
+}
+
+.footContainer
+{
+    position: relative;
+    width: 50%;
+    top: 15%;
+    left: 5%;
 }
 
 .button
@@ -132,4 +136,15 @@ nav ul
 body a
 {
     text-decoration: none;
+}
+
+.scroll
+{
+    transition: 0.2s;
+    width: 1%;
+    position: fixed;
+    top: 1vh;
+    right: 0.5%;
+
+    transform: rotate(180deg);
 }
