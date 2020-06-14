@@ -45,3 +45,27 @@ window.onscroll = function()
 
     document.getElementsByClassName("scroll")[0].style.top = percentage+"vh";
 }
+
+function resize(value)
+{
+
+    console.log("function is working");
+    var images = document.querySelectorAll(".slot");
+    console.log(images.length);
+    console.log();
+
+    for(var i = 0; i < images.length; i++)
+    {
+        console.log("value is: " + value);
+        console.log("x[i] height is: "+ images[i].style.height);
+
+
+        images[i].style.height = value + "vw";
+        images[i].style.width  = value + "vw";
+
+        if(value == 60)
+        {
+            images[i].style.marginLeft = 10 + "%";
+        } else { images[i].style.marginLeft = 0 + "%"; }
+    }
+}
