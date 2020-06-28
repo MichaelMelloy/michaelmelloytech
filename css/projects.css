@@ -1,16 +1,38 @@
-.mainhead
+.projectContainer
 {
-    text-align: center;
-    margin-top: 20%;
-    font-size: 450%;
+    width: 80%;
+    margin-left: 10%;
+    margin-bottom: 3%;
+    background: var(--text-color-1-inverted);
     color: var(--text-color-1);
+    font-size: 125%;
+    display: inline-block;
 }
 
-.sub
+.innerContainer
 {
-    text-align: center;
-    margin-top: 1%;
-    font-size: 125%;
-    margin-bottom: 20%;
-    color: var(--text-color-2);
+    padding: 2%;
 }
+
+.projectContainer a
+{
+    position: relative;
+    top: -5vh;
+    left: 85%;
+}
+
+.projectContainer span
+{
+    font-size: 133%;
+}
+
+.someday
+{
+    margin-top: 15%;
+    color:  var(--text-color-1);
+    font-size: 300%;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 15%;
+}
+

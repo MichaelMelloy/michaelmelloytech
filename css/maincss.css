@@ -21,6 +21,7 @@ body
 {
     --text-color-1: rgb(212, 212, 212);
     --text-color-2: rgb(180, 180, 180);
+    --text-color-3: rgb(150, 150, 150);
     --text-color-1-inverted: rgb(25, 25, 25);
     --dark: rgb(10, 10, 10);
 }
